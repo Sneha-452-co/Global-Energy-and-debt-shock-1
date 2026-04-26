@@ -25,9 +25,9 @@ def load_model(path):
 # -------------------------------
 # LOAD FILES (IMPORTANT PATH FIXED)
 # -------------------------------
-scaler = load_model("/workspaces/Global-Energy-and-debt-shock-1/notebook/models/scaler.pkl")
-model = load_model("/workspaces/Global-Energy-and-debt-shock-1/notebook/models/model.pkl")
-encoder = load_model("/workspaces/Global-Energy-and-debt-shock-1/notebook/models/encoder.pkl")
+scaler = load_model("notebook/models/scaler.pkl")
+model = load_model("notebook/models/model.pkl")
+encoder = load_model("notebook/models/encoder.pkl")
 
 # -------------------------------
 # SIDEBAR INPUTS
